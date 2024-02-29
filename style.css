@@ -113,39 +113,6 @@
             transform: translateX(-50%) translateX(-50%);
             
         }
-       /* @media (min-width: 640px) {
-        .uys{
-            left: 100%;
-        }
-        .laal{
-            left: 80%;
-        }
-        .text{
-            left:80%;
-        }
-       }
-       @media (min-width: 780px) {
-        .uys{
-            left: 100%;
-        }
-        .laal{
-            left: 80%;
-        }
-        .text{
-            left: 80%;
-        }
-       }
-       @media (min-width: 1020px) {
-        .uys{
-            left:80%;
-        }
-        .laal{
-            left: 70%;
-        }
-        .text{
-            left: 70%;
-        }
-       } */
        @media (min-width:500px) and (max-width:1020px) {
         .uys{
             left: 100%;
