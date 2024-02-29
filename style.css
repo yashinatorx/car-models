@@ -113,7 +113,7 @@
             transform: translateX(-50%) translateX(-50%);
             
         }
-       @media (min-width:500px) and (max-width:1020px) {
+       @media (min-width:300px) and (max-width:1020px) {
         .uys{
             left: 100%;
         }
