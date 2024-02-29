@@ -1,0 +1,160 @@
+    *{
+            margin: 0;
+            padding: 0;
+            box-sizing:border-box ;
+        }
+        #super{
+            height: 100vh;
+            overflow-x: hidden;
+            overflow-y: auto;
+            perspective: 10px;
+            background-color: black;
+            width: 100%;
+        }
+        .models{
+            position: relative;
+            height: 700px;
+            width: 100%; 
+            transform-style: preserve-3d;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: -1;
+        }
+        .background{
+            transform: translateZ(-40px) scale(3); 
+            
+        }
+        h1{
+            color: white;
+            z-index: -1;
+            position: absolute;
+            top: 250px;
+            font-size: 100px;
+            background:linear-gradient(to top right, red,blue);
+            background-clip: text;
+            -webkit-background-clip:text;
+            -webkit-text-fill-color:transparent ;
+        }
+        section{
+            background-color: rgb(0, 0, 0);
+            color: pink;
+            padding:10px;
+        }
+        .pqr{
+            font-size: 70px;
+            padding: 10px;
+        }
+        .xyz{
+            font-size: 30px;
+            margin: 10px;
+            padding: -10px;
+        }
+
+        .bg{
+            position: relative;
+            width: 100%;
+            height: 400px;
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+
+        }
+        .bg1{
+            background-image: url(supra.jpg);
+        }
+        .bg2{
+            background-image: url(lamborghini.jpg);
+        }
+        .bg3{
+            background-image: url(ferrari.jpg);
+        }
+        .text{
+           position:absolute;
+            color:white;
+            background:linear-gradient(to top right, green,rgb(0, 247, 255));
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color:transparent;
+            top: 35%;
+            left: 65%;
+            padding: 0.5rem 2.5rem;
+            font-size: 70px;
+            transform: translateX(-50%) translateX(-50%);
+           
+        }
+        .laal{
+            position:absolute;
+            color:white;
+            background:linear-gradient(to top right, green,rgb(0, 247, 255));
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color:transparent;
+            top: 35%;
+            left: 65%;
+            padding: 0.5rem 2.5rem;
+            font-size: 70px;
+            transform: translateX(-50%) translateX(-50%);
+        }
+       #www{
+        color: green;
+       }
+       .uys{ 
+        position:absolute;
+            color:white;
+            background:linear-gradient(to top right, green,rgb(0, 247, 255));
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color:transparent;
+            top: 40%;
+            left: 80%;
+            padding: 0.5rem 2.5rem;
+            font-size: 57px;
+            transform: translateX(-50%) translateX(-50%);
+            
+        }
+       /* @media (min-width: 640px) {
+        .uys{
+            left: 100%;
+        }
+        .laal{
+            left: 80%;
+        }
+        .text{
+            left:80%;
+        }
+       }
+       @media (min-width: 780px) {
+        .uys{
+            left: 100%;
+        }
+        .laal{
+            left: 80%;
+        }
+        .text{
+            left: 80%;
+        }
+       }
+       @media (min-width: 1020px) {
+        .uys{
+            left:80%;
+        }
+        .laal{
+            left: 70%;
+        }
+        .text{
+            left: 70%;
+        }
+       } */
+       @media (min-width:500px) and (max-width:1020px) {
+        .uys{
+            left: 100%;
+        }
+        .laal{
+            left: 75%;
+        }
+        .text{
+            left:75%;
+        }
+       }
+     
