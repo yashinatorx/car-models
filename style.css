@@ -113,7 +113,49 @@
             transform: translateX(-50%) translateX(-50%);
             
         }
-       @media (min-width:300px) and (max-width:1020px) {
+       @media (min-width:320px) and (max-width:640px) {
+        .uys{
+            left: 100%;
+           font-size:50px;
+        }
+        .laal{
+            left: 75%;
+           font-size:50px;
+        }
+        .text{
+            left:75%;
+           font-size:50px;
+        }
+       }
+      @media (min-width:320px) and (max-width:640px) {
+        .uys{
+            left: 100%;
+           font-size:50px;
+        }
+        .laal{
+            left: 75%;
+           font-size:50px;
+        }
+        .text{
+            left:75%;
+           font-size:50px;
+        }
+       }
+ @media (min-width:320px) and (max-width:640px) {
+        .uys{
+            left: 100%;
+           font-size:50px;
+        }
+        .laal{
+            left: 75%;
+           font-size:50px;
+        }
+        .text{
+            left:75%;
+           font-size:50px;
+        }
+       }
+ @media (min-width:640px) and (max-width:1020px) {
         .uys{
             left: 100%;
         }
@@ -124,4 +166,3 @@
             left:75%;
         }
        }
-     
